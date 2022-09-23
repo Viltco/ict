@@ -1,0 +1,13 @@
+<odoo>
+
+    <record id="no_create_fields" model="ir.module.category">
+        <field name="name">No Create Sale Fields</field>
+        <field name="description">Manage Sale Fields Security</field>
+    </record>
+
+    <record id="group_no_create_sale_fields_root" model="res.groups">
+        <field name="name">No Create Sale Order Fields</field>
+        <field name="category_id" ref="no_create_fields"/>
+    </record>
+
+</odoo>
